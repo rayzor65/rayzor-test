@@ -1,0 +1,8 @@
+.env
+vendor
+.idea
+test/config/unit-tests.xml
+config/gets.php
+config/app.php
+config/posts.php
+responses/*

@@ -1,0 +1,16 @@
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/3.7/phpunit.xsd"
+        verbose="true"
+        stopOnFailure="true"
+        colors="true"
+>
+    <testsuites>
+        <testsuite name="EndpointTest">
+            <directory>../</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name="ENV" value="production" />
+    </php>
+</phpunit>
